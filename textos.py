@@ -6,6 +6,7 @@ import nltk #Natural Language Tool Kit
 from collections import Counter
 from sklearn.cross_validation import cross_val_score
 from sklearn.cross_validation import LabelKFold
+from sklearn import datasets
 
 nltk.download('stopwords')#Baixando e/ou atualizando as stopWords
 nltk.download('rslp')# Extrator da raiz das palavras( Removedor de Sufixo Lingua Portuguesa)
@@ -18,6 +19,11 @@ raiz = nltk.stem.RSLPStemmer()
 classificacoes = pd.read_csv('emails.csv', encoding='utf-8')
 textoPuro = classificacoes['email']
 marcacoes = classificacoes['spam']
+
+df = pd.DataFrame(textoPuro)
+
+diabetes = datasets.load_diabetes()
+
 
 frases = textoPuro.str.lower();#textos em minusculo
 textoPalavras = [nltk.tokenize.word_tokenize(frase) for frase in frases]#Limpando as pontuações do texto
@@ -67,8 +73,8 @@ validacaoMarcacoes = y[tamanhoDoTreino:]
 
 
 def fitAndPredict(nome, modelo, treinoDados, treinoMarcacoes):
-    k =3
-    scores = cross_val_score(modelo, treinoDados, treinoMarcacoes)
+    k = 4
+    scores = cross_val_score(modelo, treinoDados, treinoMarcacoes,cv = k)
     taxaDeAcerto = np.mean(scores)
 
     msg = "Taxa de Acerto do {0}: {1}".format(nome, taxaDeAcerto)
@@ -102,4 +108,4 @@ resultados[resultadoAdaBoost] = modeloAdaBoost
 
 
 print("Total de Palavras",len(dicionario))
-print(treinoMarcacoes)
+#print(frases)

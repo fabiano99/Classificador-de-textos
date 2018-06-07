@@ -1,34 +1,103 @@
-email,spam
-"Compre 10 camisetas e pague somente 8", 6
-"Bom dia, me envie os relatórios de ontem.", 0
-"Qual endereço para acessar o portal da empresa?", 4
-"Promoção, na compra de um refrigerador você ganha um fogão de brinde", 6
-"Olá, estou te encaminhando meu currículo", 5
-"Curriculo para vaga de gerente comercial", 5
-"Qual será o valor dos produtos lançados na semana passada?", 0
-"Computador 03 está com problema ao iniciar o módulo de cadastros", 4
-"Somente nesta sexta-feira, materiais para construção com descontos imperdíveis!", 6
-"Se eu comprar antecipado eu ganho desconto?", 0
-"O sistema está dando erro ao abrir o módulo financeiro.", 4
-"Sexta-feira temos workshop sobre marketing empresarial, não se esqueçam!", 2
-"Compre notebook com R$ 200,00 de desconto somente até sábado", 6
-"Celulares em promação, iPhone X com 20$ de desconto", 6
-"Estou encaminhando meu curriculo.", 5
-"Houve alguns problema no projeto e iremos atrasar a entrega", 5
-"Onde clico para aparecer o painel de permissões?", 4
-"Não perca a oportunidade de adquirir seu carro ZERO", 6
-"Quanto mais vc compra mais vc ganha. Sistema de pontuação que ganha pontos em dobro.", 6
-"Preciso conversar urgente com o responsável pelo marketing.", 2
-"Computadores atigindo temperatura elevada e desligando, solicito manutenção.", 4
-"Segue anexo curriculo.", 5
-"Somente nessa sexta-feira, sofá 3 lugares por R$ 200,00", 6
-"Qual melhor Placa de video para jogar LOL?", 3
-"Precisamos de aumentar as publicidades nas periferias da cidade?", 2
-"Estou enfrentando problemas com erros nas parcelas do cartão de crédito. Valores duplicados!", 0
-"Qual valor das novas caixas de som JBL?", 1
-"Preciso de orçamento para 10 notebooks.", 1
-"Irei comprar alguns milhares de cabo de rede. Consegue-me um desconto?", 1
-"Minha memória RAM já esta com defeito, a garantia cobre?", 4
-"Estou encaminhando meu curriculo.", 5
-"A empresa oferece vaga para jovem aprendiz?", 5
-"Preciso de sugestoes e analise de especialista para implantar novo software.", 3
+email,financeiro,vendas,marketing,analise,suporte,gerencia,spam
+Compre 10 camisetas e pague somente 8,0,0,0,0,0,0,1
+"Bom dia, me envie os relatórios de ontem.",1,0,0,0,0,0,0
+Qual endereço para acessar o portal da empresa?,0,0,0,0,1,0,0
+"Promoção, na compra de um refrigerador você ganha um fogão de brinde",0,0,0,0,0,0,1
+"Olá, estou te encaminhando meu currículo",0,0,0,0,0,1,0
+Curriculo para vaga de gerente comercial,0,0,0,0,0,1,0
+Qual será o valor dos produtos lançados na semana passada?,1,0,0,0,0,0,0
+Computador 03 está com problema ao iniciar o módulo de cadastros,0,0,0,0,1,0,0
+"Somente nesta sexta-feira, materiais para construção com descontos imperdíveis!",0,0,0,0,0,0,1
+Se eu comprar antecipado eu ganho desconto?,1,0,0,0,0,0,0
+O sistema está dando erro ao abrir o módulo financeiro.,0,0,0,0,1,0,0
+O José pediu demissão. Posso pedir o exame demissional?,0,0,0,0,0,1,0
+"Sexta-feira temos workshop sobre marketing empresarial, não se esqueçam!",0,0,1,0,0,0,0
+"Compre notebook com R$ 200,00 de desconto somente até sábado",0,0,0,0,0,0,1
+"Celulares em promação, iPhone X com 20$ de desconto",0,0,0,0,0,0,1
+Estou encaminhando meu curriculo.,0,0,0,0,0,1,0
+Houve alguns problema no projeto e iremos atrasar a entrega,0,0,0,0,0,1,0
+Onde clico para aparecer o painel de permissões?,0,0,0,0,1,0,0
+Não perca a oportunidade de adquirir seu carro ZERO,0,0,0,0,0,0,1
+Quanto mais vc compra mais vc ganha. Sistema de pontuação que ganha pontos em dobro.,0,0,0,0,0,0,1
+Preciso conversar urgente com o responsável pelo marketing.,0,0,1,0,0,0,0
+"Computadores atigindo temperatura elevada e desligando, solicito manutenção.",0,0,0,0,1,0,0
+Segue anexo curriculo.,0,0,0,0,0,1,0
+"Somente nessa sexta-feira, sofá 3 lugares por R$ 200,00",0,0,0,0,0,0,1
+Qual melhor Placa de video para jogar LOL?,0,0,0,1,0,0,0
+Precisamos de aumentar as publicidades nas periferias da cidade?,0,0,1,0,0,0,0
+Estou enfrentando problemas com erros nas parcelas do cartão de crédito. Valores duplicados!,1,0,0,0,0,0,0
+Qual valor das novas caixas de som JBL?,0,1,0,0,0,0,0
+Preciso de orçamento para 10 notebooks.,0,1,0,0,0,0,0
+Irei comprar alguns milhares de cabo de rede. Consegue-me um desconto?,0,1,0,0,0,0,0
+"Minha memória RAM já esta com defeito, a garantia cobre?",0,0,0,0,1,0,0
+Estou encaminhando meu curriculo.,0,0,0,0,0,1,0
+A empresa oferece vaga para jovem aprendiz?,0,0,0,0,0,1,0
+Preciso de sugestoes e analise de especialista para implantar novo software.,0,0,0,1,0,0,0
+Qual melhor computador para uso acadêmico?,0,0,0,1,0,0,0
+Preciso que me libere acesso ao sistema financeiro,0,0,0,0,1,0,0
+"Sobre a demissão do funcionário do caixa, preciso dos detalhes",0,0,0,0,0,1,0
+Minha CPU não liga. Pode me ajudar com esse problema?,0,0,0,0,1,0,0
+Qual melhor dia para efetuar uma compra no cartão da loja?,1,0,0,0,0,0,0
+"Quanto está custando um kit com placa mãe, hd, fonte e memória RAM?",0,1,0,0,0,0,0
+Qual valor das novas caixas de som JBL?,0,1,0,0,0,0,0
+Preciso de orçamento para 10 notebooks.,0,1,0,0,0,0,0
+Irei comprar alguns milhares de cabo de rede. Consegue-me um desconto?,0,1,0,0,0,0,0
+"Minha memória RAM já esta com defeito, a garantia cobre?",0,0,0,0,1,0,0
+"Bom dia, me envie os relatórios de ontem.",1,0,0,0,0,0,0
+Qual endereço para acessar o portal da empresa?,0,0,0,0,1,0,0
+"Promoção, na compra de um refrigerador você ganha um fogão de brinde",0,0,0,0,0,0,1
+"Olá, estou te encaminhando meu currículo",0,0,0,0,0,1,0
+Curriculo para vaga de gerente comercial,0,0,0,0,0,1,0
+Qual será o valor dos produtos lançados na semana passada?,1,0,0,0,0,0,0
+Computador 03 está com problema ao iniciar o módulo de cadastros,0,0,0,0,1,0,0
+"Somente nesta sexta-feira, materiais para construção com descontos imperdíveis!",0,0,0,0,0,0,1
+Se eu comprar antecipado eu ganho desconto?,1,0,0,0,0,0,0
+O sistema está dando erro ao abrir o módulo financeiro.,0,0,0,0,1,0,0
+O José pediu demissão. Posso pedir o exame demissional?,0,0,0,0,0,1,0
+"Compre notebook com R$ 200,00 de desconto somente até sábado",0,0,0,0,0,0,1
+"Celulares em promação, iPhone X com 20$ de desconto",0,0,0,0,0,0,1
+Estou encaminhando meu curriculo.,0,0,0,0,0,1,0
+Houve alguns problema no projeto e iremos atrasar a entrega,0,0,0,0,0,1,0
+"Se eu comprar cinco anos antecipados, eu ganho algum desconto?",1,1,0,0,0,0,0
+O exercício 15 do curso de Java 1 está com a resposta errada. Pode conferir pf?,0,0,0,1,0,0,0
+Existe algum curso para cuidar do marketing da minha empresa?,0,0,0,1,0,0,0
+"Gostaria de renovar antecipadamente meu plano, como posso fazer?",1,0,0,0,0,0,0
+O vídeo não está travando as vezes no meu navegador. Como trocar o player?,0,0,0,0,1,0,0
+Que trilha vocês recomendam para quem quer começar com programação?,0,0,0,1,0,0,0
+Quanto custa o plano premium?,0,1,0,0,0,0,0
+Como faço para postar minha dúvida no fórum?,0,0,0,0,1,0,0
+"Já trabalho como designer e queria aprender mais de UX, que cursos devo fazer?",0,0,0,1,0,0,0
+"Coloquei meu nome com letra maiúscula no certificado, gostaria de mudar, como posso fazer isso?",0,0,0,0,0,1,0
+Onde posso acessar meu certificado?,0,0,0,0,1,0,0
+Que cursos devo fazer para crescer na minha carreira de programação?,0,0,0,1,0,0,0
+Se meu acesso expirar ainda tenho acesso aos meus certificados?,0,0,0,1,0,0,0
+Achei um erro no vídeo de Excel. A fórmula usada foi sum com uma coluna a mais no segundo vídeo do curso aos 3 minutos.,0,0,0,1,0,0,0
+Que cursos vocês indicam para meu filho de 14 anos?,0,0,0,1,0,0,0
+Posso imprimir meu certificado?,0,0,0,0,1,0,0
+"Bom dia, tenho interesse na parte de IOS, porem tenho a duvida sobre as vídeo aulas, devem existir exercícios, para realizar esse curso seria necessário possuir um computador mac?, ou existe algum ambiente de virtualização para que possar ser realizados esses exercícios e praticas do conteúdo?",0,0,0,0,1,0,0
+Qual a carreira indicada para meu filho?,0,0,0,1,0,0,0
+Gostaria de saber se vocês emitem certificado valido para todo  Brasil??? Desde já agradeço!,0,0,0,0,1,0,0
+qual versão do laravel no curso,0,0,0,0,1,0,0
+"Olá, quero aprender a programar, mas não sei por onde começar, e gostaria de uma ajuda para escolher o curso! Obs: só posso fazer a distancia.",0,0,0,1,0,0,0
+"Comprei o plano Premium ontem mas Queria mudar do plano Premium pro plus, como faço?",0,1,0,0,0,0,0
+Como faço para me tornar um moderador no Alura?,0,0,0,0,1,0,0
+estou interessado em python minha duvida é se nos cursos do alura vou aprender sobre interface gráfica? já conheço um pouco mas estou almejando a pyqt pois me parece ser muito mais completa.,0,0,0,0,1,0,0
+"Usei o cartão do meu pai e ele cancelou o pagamento pois eu não havia avisado, posso tentar efetuar a compra novamente?",1,0,0,0,0,0,0
+Como faço para ser convidado a me tornar um moderador?,0,0,0,0,1,0,0
+"Me cadastrei com o email antigo do paypal, mas gostaria de me cadastrar com um novo, poderia trocar para mim por favor?",1,0,0,0,0,0,0
+Quais os passos para me tornar um desenvolvedor certificado na minha carreira de programador?,0,0,0,1,0,0,0
+"Tenho o plano premiun de renovar o plano Premium plus, como faço?",1,0,0,0,0,0,0
+"Quero ajudar mais a comunidade do Alura e me tornar um moderador, como posso fazer isso?",0,0,0,0,1,0,0
+"Terminei a faculdade em sistemas de informação, porém não tenho muita Prática, qual curso devo optar em fazer, pretendo trabalhar com Java web inicialmente.",0,0,0,1,0,0,0
+Além do paypal posso pagar com moip?,1,0,0,0,0,0,0
+"Encontrei um erro de digitação em uma explicação, devo enviar por aqui ou pela ferramenta do site de envio de correção de explicação?",0,0,0,0,1,0,0
+Posso efetuar o pagamento a vista via transferencia bancária?,1,0,0,0,0,0,0
+"Boa noite, equipe do Alura! Senti a necessidade de aprender a programar e diante de algumas pesquisas no google me deparei com o site de vocês. Gostaria de saber se eu, que tenho perto de 0 de proximidade com a programação, serei capaz de entender, absorver e aprender realmente a lidar com as linguagens e ser capaz de programar ou se são cursos para quem já possui uma base e deseja aprender ainda mais. De qualquer forma fica aqui um depoimento de alguém que só de ver o site de vocês já sentiu mais vontade ainda de aprender. Parabéns!",0,0,0,1,0,0,0
+"Usei a conta do paypal de meus pais para me cadastrar, mas gostaria de usar meu email, por favor trocar.",1,0,0,0,0,0,0
+"Desde já, desejo-te um ótimo início de semana, seguinte sou do COBOL, estudei outras linguagens, mas a que mais me identifiquei foi python, gostaria de saber se a trilha do curso python vai ser desenvolvido na plataforma Windows?",0,0,0,0,1,0,0
+"Gostaria de saber qual o melhor curso para eu fazer, já que não tenho nenhum conhecimento na área de programação.",0,0,0,1,0,0,0
+Posso usar o cartão de meu pai para efetuar o pagamento?,1,0,0,0,0,0,0
+"Trabalhando com o framework Django não ficamos dependente desse programa, pois não seria melhor criarmos nosso próprio framework para termos maior independência e maior controle sobre as aplicações?",0,0,0,0,1,0,0
+"É necessário aprender html, css e javascrip em python para criar aplicações web?",0,0,0,0,1,0,0
+"Estou com dificuldade para fazer o pagamento, poderia me ajudar?",1,0,0,0,0,0,0
+"Gostaria de saber qual o melhor caminho para meu filho, que gosta de design mas não é fã de programação. Ele deve fazer lógica?",0,0,0,1,0,0,0
