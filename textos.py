@@ -8,26 +8,20 @@ from sklearn.cross_validation import cross_val_score
 from sklearn.cross_validation import LabelKFold
 from sklearn import datasets
 
-nltk.download('stopwords')#Baixando e/ou atualizando as stopWords
-nltk.download('rslp')# Extrator da raiz das palavras( Removedor de Sufixo Lingua Portuguesa)
-nltk.download('punkt')#Ferramenta para trabalhar com pontuação
+#nltk.download('stopwords')#Baixando e/ou atualizando as stopWords
+#nltk.download('rslp')# Extrator da raiz das palavras( Removedor de Sufixo Lingua Portuguesa)
+#nltk.download('punkt')#Ferramenta para trabalhar com pontuação
 stopWords = nltk.corpus.stopwords.words("portuguese"); #recebendo palavras sem significado relevante
 raiz = nltk.stem.RSLPStemmer()
 
-
-
 classificacoes = pd.read_csv('emails.csv', encoding='utf-8')
 textoPuro = classificacoes['email']
-marcacoes = classificacoes['spam']
+marcacoes=classificacoes['spam']
 
 df = pd.DataFrame(textoPuro)
 
-diabetes = datasets.load_diabetes()
-
-
 frases = textoPuro.str.lower();#textos em minusculo
 textoPalavras = [nltk.tokenize.word_tokenize(frase) for frase in frases]#Limpando as pontuações do texto
-
 
 dicionario = set() #Set é um conjunto, não permite repetição
 
@@ -58,6 +52,7 @@ vetoresDeTexto = [vetorizar_texto(texto, tradutor) for texto in textoPalavras]
 x = np.array(vetoresDeTexto)
 y = np.array(marcacoes.tolist())
 
+
 porcentagemDeTreino = 0.8
 
 tamanhoDoTreino = math.ceil(porcentagemDeTreino * len(y))
@@ -70,7 +65,6 @@ treinoMarcacoes = y[0:tamanhoDoTreino]
 #Dados a serem validados a partir do treinamento
 validacaoDados = x[tamanhoDoTreino:]
 validacaoMarcacoes = y[tamanhoDoTreino:]
-
 
 def fitAndPredict(nome, modelo, treinoDados, treinoMarcacoes):
     k = 4
@@ -106,6 +100,4 @@ modeloAdaBoost = AdaBoostClassifier()
 resultadoAdaBoost = fitAndPredict("AdaBoost", modeloAdaBoost, treinoDados, treinoMarcacoes)
 resultados[resultadoAdaBoost] = modeloAdaBoost
 
-
 print("Total de Palavras",len(dicionario))
-#print(frases)
